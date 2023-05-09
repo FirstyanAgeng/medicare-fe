@@ -9,10 +9,13 @@ body {
   /* box-sizing: border-box; */
 }
 
-/* .App {
-  height: 90vh;
+.App {
+  height: 100vh;
   width: 100vw;
-} */
+  display: grid;
+  background-color: #d9d9d9;
+  grid-template-columns: 300 auto;
+}
 
 .sidebar {
   height: 100%;
